@@ -11,10 +11,10 @@ public class binarysearch {
                 return mid;
             }
 
-            if(numbers[mid] > key){ //
+            if(numbers[mid] > key){ // left
                 end = mid-1;
             } else {
-                start = mid +1;
+                start = mid +1;  //right
             }
         }
 
