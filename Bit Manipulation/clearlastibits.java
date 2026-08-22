@@ -1,0 +1,9 @@
+public class clearlastibits {
+    public static int ClearLastibits(int n , int i){
+     int bitmask = ~((1<<i) - 1);
+     return n & bitmask;
+    }
+    public static void main(String args[]){
+       System.out.println(ClearLastibits(15, 3));
+    }
+}
